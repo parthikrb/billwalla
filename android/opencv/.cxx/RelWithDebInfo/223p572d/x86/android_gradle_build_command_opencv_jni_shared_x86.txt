@@ -1,0 +1,7 @@
+Executable : /Users/parthibanbaskar/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/parthibanbaskar/bapana/native-apps/billwalla/android/opencv/.cxx/RelWithDebInfo/223p572d/x86
+opencv_jni_shared
+jvmArgs : 
+
