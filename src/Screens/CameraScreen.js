@@ -143,10 +143,10 @@ export default class CameraScreen extends Component {
             this.camera = cam;
           }}
           style={styles.preview}
-          permissionDialogTitle={'Permission to use camera'}
-          permissionDialogMessage={
-            'We need your permission to use your camera phone'
-          }>
+          androidCameraPermissionOptions={{
+            title: 'Permission to use camera',
+            message: 'We need your permission to use your camera phone',
+          }}>
           <View style={styles.takePictureContainer}>
             <TouchableOpacity onPress={this.takePicture}>
               <View>
