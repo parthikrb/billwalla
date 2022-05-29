@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/parthibanbaskar/bapana/native-apps/billwalla/android/opencv/.cxx/Debug/j1noa1r6/arm64-v8a'
+ninja: no work to do.
