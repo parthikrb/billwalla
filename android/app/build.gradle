@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: "com.chaquo.python"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -340,3 +341,10 @@ def isNewArchitectureEnabled() {
     // - Set an environment variable `ORG_GRADLE_PROJECT_newArchEnabled=true`
     return project.hasProperty("newArchEnabled") && project.newArchEnabled == "true"
 }
+
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+// https://chaquo.com/chaquopy/doc/10.0/android.html#android-plugin
